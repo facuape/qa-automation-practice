@@ -1,4 +1,4 @@
-# QA Automation Practice - Versión B
+# QA Automation Practice - Conflicto Y
 
 ## Notas
 Practicando Git con feature branches.
