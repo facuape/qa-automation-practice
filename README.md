@@ -1,4 +1,4 @@
-# QA Automation Practice - Conflicto X
+# QA Automation Practice - Conflicto resuelto (combinación de X e Y)
 
 ## Notas
 Practicando Git con feature branches.
