@@ -16,5 +16,5 @@ jobs:
       - name: Verificar que el README existe
         run: |
           echo "Buscando README.md..."
-          test -f archivo-que-no-existe.md
+          test -f README.md
           echo "Todo bien, el archivo existe."
