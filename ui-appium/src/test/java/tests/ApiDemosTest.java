@@ -33,6 +33,13 @@ public class ApiDemosTest {
         assertTrue(texto.equals("App"), "No se encontro la categoria App en la lista");
     }
 
+        @Test
+    void recorridoActionBar() {
+        driver.findElement(By.xpath("//*[@text='App']")).click();
+
+        String texto = driver.findElement(By.xpath("//*[@text='Action Bar']")).getText();
+        assertTrue(texto.equals("Action Bar"), "No se encontro Action Bar despues de tocar App");
+    }
     @AfterEach
     void tearDown() {
         if (driver != null) {
